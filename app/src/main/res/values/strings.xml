@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Dice Roller</string>
-    <string name="roll">Roll</string>
+    <string name="app_name">El dadito</string>
+    <string name="BotonTexto">Lanzar</string>
 </resources>
+
+
+
