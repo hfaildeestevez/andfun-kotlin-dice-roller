@@ -18,7 +18,9 @@ package com.example.android.diceroller
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,10 +31,14 @@ class MainActivity : AppCompatActivity() {
         val rollbutton: Button = findViewById(R.id.bLanzar)
         rollbutton.setOnClickListener{
 
-
+            rollDice()
         }
+    }
 
+    private fun rollDice() {
+        val randomInt = Random().nextInt(6) + 1
 
-
+        val resultText: TextView = findViewById(R.id.)
+        resultText.text = randomInt.toString()
     }
 }
