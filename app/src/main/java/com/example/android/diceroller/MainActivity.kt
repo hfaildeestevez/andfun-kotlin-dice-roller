@@ -30,15 +30,19 @@ class MainActivity : AppCompatActivity() {
 
         val rollbutton: Button = findViewById(R.id.bLanzar)
         rollbutton.setOnClickListener{
-
-            rollDice()
+            //Pongo Tosat de comentario y llamo a la funcion de girar al dado
+            //Cuando pulse el boton me generara un numero que despues mostrara en pantalla
+            //Toast.makeText(this, R.string.ConfiTextoBoton, Toast.LENGTH_SHORT).show()
+            girarDado()
         }
-    }
 
-    private fun rollDice() {
+    }
+    //Creo la funcion random que me devolvera un numero que sera despues lo que muestre en el layout
+    private fun girarDado() {
         val randomInt = Random().nextInt(6) + 1
 
-        val resultText: TextView = findViewById(R.id.)
+        val resultText: TextView = findViewById(R.id.bLanzar)
         resultText.text = randomInt.toString()
+
     }
 }
