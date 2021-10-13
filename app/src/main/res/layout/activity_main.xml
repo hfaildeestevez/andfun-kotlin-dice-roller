@@ -36,22 +36,25 @@
         android:layout_height="wrap_content"
         android:text="@string/BotonTexto"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imagenDado"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         app:icon="@drawable/baseline_fingerprint_24"
-
+        app:layout_constraintTop_toBottomOf="@+id/imagenDado"
         />
+
+    <ImageView
+        android:id="@+id/imagenDado"
+        android:layout_width="212dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/bLanzar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/empty_dice" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!-- TODO (01) Remove the code above and add the LinearLayout code from the classroom -->
-
-    <!-- TODO (02) Add the Button
-         Use "wrap_content" for its width and height
-         Use "center_horizontal" for the layout_gravity -->
-
-    <!-- TODO (03) Position the views
-         Remember to set the orientation of the LinearLayout to vertical
-         and use layout_gravity to align the elements so they are centered as expected -->
