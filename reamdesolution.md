@@ -24,7 +24,7 @@ Lo primero de todo en el build.gradle implemento el material de android. A conti
 [Commit creación botón y huella](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/47a50d1570457d6b0268878e750e90d24ed6f3e0)
 
 3.[Idiomas](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/71f4a6030d8a1669640ed573f21ecd4180fb6500)
-Lo que hago aquí es básicamente es que en el activity_main.xml pongo el nombre de la aplicación y el texto del botón en español y en inglés cde tal forma que se pueda cambiar.
+Lo que hago aquí es básicamente es que en el activity_main.xml pongo el nombre de la aplicación y el texto del botón en español y en inglés de tal forma que se pueda cambiar.
 Aquí es donde empleo los strings.
 
 4. [Creo random](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/e86ea8d9605aeab0c62d11085d131a84ee0533d9).
