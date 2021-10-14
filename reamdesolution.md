@@ -27,10 +27,10 @@ Lo primero de todo en el build.gradle implemento el material de android. A conti
 Lo que hago aquí es básicamente es que en el activity_main.xml pongo el nombre de la aplicación y el texto del botón en español y en inglés de tal forma que se pueda cambiar.
 Aquí es donde empleo los strings.
 
-4. [Creo random](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/e86ea8d9605aeab0c62d11085d131a84ee0533d9).
+4.[Creo random](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/e86ea8d9605aeab0c62d11085d131a84ee0533d9).
 En este commit se crea la funcion random.
 
-5. [Visualizo dado](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/41e4f5e69d8221efbb2630b8436190379b64c717). En este commit 
+5.[Visualizo dado](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/41e4f5e69d8221efbb2630b8436190379b64c717). En este commit 
 visualizo las diferentes caras del dado con la ayuda de la funcion random. Lo que hago es asociar cada imagen de cada lado del dado con un numero aleatorio u despues lo visualizo. Las imágenes empleandas se encuentran en drawable.
 
-6. [Random Propio](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/d0e8b7ebe2faff270920a49a15d0cd29c5d55f17)
+6.[Random Propio](https://github.com/hfaildeestevez/andfun-kotlin-dice-roller/commit/d0e8b7ebe2faff270920a49a15d0cd29c5d55f17) Aquí modifico el random para emplear uno propio
